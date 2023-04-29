@@ -73,7 +73,7 @@ int main()
     bank *customer = new bank[100];
     do
     {
-        std::cout << "\n*****MAIN MENU*****\n";
+        std::cout << "\n*****Welcome To Main Menu Of Our Bank*****\n";
         std::cout << "1.Enter 1 for New Account\n2.Enter 2 to Withdraw\n3.Enter 3 to Deposit\n4.Enter 4 to check balance\n5.Enter 5 for Account Statement\nEnter: ";
         std::cin >> option;
 
