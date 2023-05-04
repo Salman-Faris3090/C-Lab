@@ -12,7 +12,7 @@ public:
 };
 void Time::input()
 {
-    std::cout << "\nEnter the Time in Hours: ";
+    std::cout << "\n\nEnter the Time in Hours: ";
     std::cin >> hours;
     std::cout << "Enter the Time in Minutes: ";
     std::cin >> minutes;
@@ -31,15 +31,15 @@ void Time::add(Time t1, Time t2)
 }
 void Time::display()
 {
-    std::cout << hours << "Hrs " << minutes << "Mins " << seconds << "Secs ";
+    std::cout << hours << "Hrs " << minutes << "Mins " << seconds << "Secs "<<std::endl;
 }
 int main()
 {
     Time t1, t2, t3;
-    std::cout << "***TIME 1***";
+    std::cout << "\n***TIME 1***";
     t1.input();
     t1.display();
-    std::cout << "***TIME 2***";
+    std::cout << "\n***TIME 2***";
     t2.input();
     t2.display();
     t3.add(t1, t2);
