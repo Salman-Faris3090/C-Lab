@@ -49,7 +49,7 @@ std::cout<<"enterd item not in the cart"<<std::endl;
 }
 void shop::print()
 {
-std::cout<<"**********LIST************"<<std::endl;
+std::cout<<"********** AVAILABLE PRODUCTS IN THE STORE ************"<<std::endl;
 std::cout<<std::setw(13)<<"code";
 std::cout<<std::setw(13)<<"name";
 std::cout<<std::setw(13)<<"price";
@@ -76,7 +76,7 @@ int choice;
 shop s1;
 do
 {
-std::cout<<"******WELCOME TO MAIN MENU OF OUR STORE******"<<std::endl;
+std::cout<<"****** WELCOME TO MAIN MENU OF OUR STORE ******"<<std::endl;
 std::cout<<"Enter 1 to add item"<<std::endl<<"Enter 2 to delete item"<<std::endl<<"Enter 3 to print the list of available items"<<std::endl;
 std::cin>>option;
 switch(option)
