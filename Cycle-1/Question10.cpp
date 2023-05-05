@@ -76,7 +76,7 @@ int choice;
 shop s1;
 do
 {
-std::cout<<"******MAIN MENU******"<<std::endl;
+std::cout<<"******WELCOME TO MAIN MENU OF OUR STORE******"<<std::endl;
 std::cout<<"Enter 1 to add item"<<std::endl<<"Enter 2 to delete item"<<std::endl<<"Enter 3 to print the list of available items"<<std::endl;
 std::cin>>option;
 switch(option)
