@@ -28,7 +28,7 @@ complex::complex(complex c1,complex c2)
 }
 void complex::show()
 {
-    std::cout<<real<<" + "<<imag<<"i";
+    std::cout<<real<<" + "<<imag<<"i"<<std::endl;
 }
 int main()
 {
