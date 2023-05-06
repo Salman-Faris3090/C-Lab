@@ -56,7 +56,7 @@ int main()
 	std::cin>>r;
 	std::cout<<"Enter a value for Ghamma"<<std::endl;
 	std::cin>>s;
-	std::cout<<"Enter the value for Ghamma"<<std::endl;
+	std::cout<<"Enter the last value"<<std::endl;
 	std::cin>>t;
 	Ghamma g(q,r,s,t);
 		g.show_x();
